@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<body>
+
+    <div>
+        <h1>Sistema de gestão acadêmica</h1>
+        <p>Manutenção de usuarios do sistema interno</p>
+    </div>
+
+    <div>
+        <form>
+            <fieldset>
+                <div>
+                    <label for="ilogin">Login:</label>
+                    <input type="text" name="login" id="ilogin">
+                </div>
+                <div>
+                    <label for="isenha">Senha:</label>
+                    <input type="password" name="senha" id="sneha">
+                </div>
+            </fieldset>
+            <div>
+                <label for="istatus">Status:</label>
+                <select name="status" id="istatus">
+                    <option selected disabled value=""></option>
+                    <option>Ativo</option>
+                    <option>Inativo</option>
+                </select>
+            </div>
+            <div>
+                <label for="itipo">Tipo:</label>
+
+                <label> <input type="radio" name="tipo" id="itipo" value="Professor">Professor </label>
+
+                <label> <input type="radio" name="tipo" id="itipo" value="Aluno">Aluno </label>
+
+                <label> <input type="radio" name="tipo" id="itipo" value="Técnico">Técnico </label>
+            </div>
+            <div>
+                <label for="idata_criacao">Data de criação:</label>
+                <input type="date" name="data_criacao" id="idata_criacao">
+            </div>
+            <div>
+                <label for="iperfil">Perfil:</label>
+
+                <label> <input type="radio" name="perfil" id="iperfil" value="Convidado">Convidado </label>
+
+                <label> <input type="radio" name="tipo" id="itipo" value="Administrador">Administrador </label>
+            </div>
+            <div>
+                <label for="iobs">Observações:</label>
+                <textarea rows="10" style="width: 26em;" name="obs" id="iobs"></textarea>
+                <input type="checkbox" id="checkbox" name="icheckbox">
+                <label for="icheckbox">Compras</label>
+                <input type="checkbox" id="checkbox2" name="icheckbox2">
+                <label for="icheckbox2">Biblioteca</label>
+                <input type="checkbox" id="checkbox3" name="icheckbox3">
+                <label for="icheckbox3">Acadêmico</label>
+            </div>
+            <div>
+                <label for="imodulos">Módulos</label>
+                <input type="checkbox" name="modulos" id="imodulos">
+                <label for="imodulos">Documentação</label>
+                <input type="checkbox1" name="modulos" id="imodulos1">
+                <label for="imodulos1">Recusrsos Humanos</label>
+            </div>
+            <button type="submit">Cadastrar></button>
+            <button type="submit">Excluir></button>
+        </form>
+    </div>
+</body>
+
+</html>
