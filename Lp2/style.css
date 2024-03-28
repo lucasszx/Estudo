@@ -59,5 +59,8 @@ button {
 
 textarea {
     border-radius: 10px;
-    color: black;
+}
+
+input {
+    border-radius: 10px;
 }
