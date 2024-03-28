@@ -6,12 +6,10 @@
 .paragrafos {
     margin: 2em;
     text-align: justify;
-    font-size: 1;
 }
 
 a:link {
     color: red;
-    text-align: center;
 }
 
 a:visited {
@@ -36,7 +34,7 @@ iframe {
 
 h1 {
     color: red;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 button {
