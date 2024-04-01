@@ -9,7 +9,7 @@
     text-align: justify;
 }
 
-a:link {
+a:link, a:active {
     color: red;
 }
 
@@ -21,15 +21,7 @@ a:hover {
     color: #000000;
 }
 
-a:active {
-    color: red;
-}
-
-img {
-    text-align: center;
-}
-
-iframe {
+img, iframe {
     text-align: center;
 }
 
@@ -49,10 +41,6 @@ button {
     font-weight: bold;
 }
 
-textarea {
-    border-radius: 10px;
-}
-
-input {
+textarea, input {
     border-radius: 10px;
 }
