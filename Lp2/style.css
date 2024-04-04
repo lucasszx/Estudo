@@ -9,8 +9,7 @@
     text-align: justify;
 }
 
-a:link,
-a:active {
+a:link {
     color: red;
 }
 
@@ -22,7 +21,14 @@ a:hover {
     color: #000000;
 }
 
-img,
+a:active {
+    color: red;
+}
+
+img {
+    text-align: center;
+}
+
 iframe {
     text-align: center;
 }
@@ -43,7 +49,10 @@ button {
     font-weight: bold;
 }
 
-textarea,
+textarea {
+    border-radius: 10px;
+}
+
 input {
     border-radius: 10px;
 }
@@ -51,6 +60,7 @@ input {
 table {
     border: 1px solid;
     width: 50%;
+    margin: auto;
 }
 
 th,
