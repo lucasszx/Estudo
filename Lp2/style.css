@@ -67,3 +67,82 @@ th,
 td {
     border: 1px solid;
 }
+
+
+/*Tarefa Layout */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 2em;
+    font-family: Arial, sans-serif;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+.card img {
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.card h2 {
+    font-size: 1.4em;
+    color: #333;
+}
+
+.card p {
+    padding: 0 15px 20px;
+    color: #666;
+}
+
+/* Diferentes fontes e cores para cada card */
+.card:nth-child(1) h2 {
+    font-family: 'Verdana', sans-serif;
+    color: #b22222;
+}
+
+.card:nth-child(2) h2 {
+    font-family: 'Verdana', sans-serif;
+    color: #2e8b57;
+}
+
+.card:nth-child(3) h2 {
+    font-family: 'Verdana', sans-serif;
+    color: #4682b4;
+}
+
